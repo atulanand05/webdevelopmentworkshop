@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprehensive News Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .top-story {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .article {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .article img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        .child-container{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .child{
+            flex: 1;
+            padding: 5px 5px;
+            vertical-align: middle;
+        }
+        .section-title {
+            border-bottom: 3px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Global News Network</h1>
+    </header>
+
+    <nav>
+        <a href="buisness.html">Business</a>
+        <a href="sports.html">Sports</a>
+        <a href="politics.html">Politics</a>
+        <a href="world.html">World</a>
+        <a href="loginpage.html">Login/Register</a>
+    </nav>
+
+    <main>
+        <section class="top-story">
+            <h2>NTA to focus only on entrance exams for higher education, says Dharmendra Pradhan</h2>
+            <img src="nta_image.jpg" class="center">
+            <p ><h4 style="margin-left: 100px;">The move is part of examination reforms following alleged leak of medical entrance NEET exam.<h4></p>
+            
+        </section>
+
+        <section>
+            <h2 class="section-title">Latest Headlines</h2>
+            <div class="news-grid">
+                <div class="article">
+                    <h3>EC to review Delhi's poll preparedness on December 18</h3>
+                    <img src="ELECTION_COMMISSION.jpg" alt="ELECTION_COMMISSION">
+                    <p style="font-weight: bold;">The Election Commission will review the preparedness of its poll machinery in Delhi where Assembly elections are due early next year, sources said.</p>
+                </div>
+
+                <div class="article">
+                    <h3>AQI in Delhi-NCR breaches 400-mark, enters 'severe' category</h3>
+                    <img src="delhi-pollution.jpg" alt="Medical Research">
+                    <p style="font-weight: bold"; >On Tuesday, Delhi's air quality index was 421. AQI values in areas including Anand Vihar,Ashok Vihar,Jahangirpuri,ranged from 400 to 470, signifying hazardous air quality.</p>
+                </div>
+
+                <div class="article">
+                    <h3>Head of Russia’s nuclear defence forces killed in explosion in Moscow</h3>
+                    <img src="blast.jpeg">
+                    <p style="font-weight: bold"; >Igor Kirillov was killed along with his assistant when an explosive device attached to a scooter went off outside an apartment building in southeastern Moscow, Russian and Ukrainian officials said</p>
+                    
+                </div>
+            </div>
+        </section>
+
+       
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Global News Network | All Rights Reserved</p>
+        <p>Contact | About Us | Privacy Policy</p>
+    </footer>
+</body>
+</html>

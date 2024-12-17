@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Sports Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #c0392b;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .main-section {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .featured-main {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+     
+        .main img, .article img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .article {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .article img {
+            width: 250px;
+            height: 200px;
+            margin-right: 20px;
+        }
+
+        .article-content {
+            flex: 1;
+        }
+
+        .article h2 {
+            color: #c0392b;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .sports-ticker {
+            background-color: #c0392b;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .sports-ticker span {
+            display: inline-block;
+            padding: 0 20px;
+        
+        }
+
+        @keyframes ticker {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .quick-scores {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .score-card {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #c0392b;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Insights</h1>
+    </header>
+
+   
+    <div class="sports-ticker">
+        <marquee><span>LIVE UPDATES: World Cup | NBA Playoffs | Premier League | Tennis Grand Slam | Olympic Qualifiers</span></marquee>
+    </div>
+
+    <div class="quick-scores">
+        <div class="score-card">
+            <h3>Football</h3>
+            <p>Manchester United 2 - 1 Liverpool</p>
+        </div>
+        <div class="score-card">
+            <h3>Basketball</h3>
+            <p>Lakers 105 - 98 Celtics</p>
+        </div>
+        <div class="score-card">
+            <h3>Cricket</h3>
+            <p>India 287/6 vs Australia</p>
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div class="main">
+            <h2>India vs Australia third Test: It was a fighting partnership from Jasprit Bumrah and Akash Deep, says Daniel Vettori</h2>
+            <p>On Bumrah and Akash’s rearguard action, Vettori said “Any batter on any given day can step up and deliver.”</p>
+            <img src="ind_test.jpg">
+        </div>
+       
+    </div>
+
+    <div class="article">
+        <img src="gukesh_chess.jpg" width="400" height="300" >
+        <div class="article-content">
+            <h2>World Chess Championship: Chennai comes out in big numbers to welcome its newest hero Gukesh</h2>
+            <p>While in April, the 18-year-old Gukesh had received a one-of-a-kind welcome after winning the Candidates that put him in the World Chess Championship showdown with Ding Liren, on Monday his return to Chennai was chaotic and beyond anyone’s control.s.</p>
+        </div>
+    </div>
+
+    <div class="article">
+        <img src="hockey.jpg" alt="Basketball News">
+        <div class="article-content">
+            <h2>Hockey World Cup: Medal hasn't come for long time, want to achieve it in my career: Harmanpreet</h2>
+            <p>India men's hockey team captain Harmanpreet Singh has two Olympic bronze medals in his cabinet but rues about missing out on World Cup glory, an anomaly that he wants to set right in the next edition of the mega event in 2026..</p>
+        </div>
+    </div>
+
+    <div class="article">
+        <img src="footbal.jpg" alt="Cricket News">
+        <div class="article-content">
+            <h2>Kerala Blasters sacks head coach Mikael Stahre after club’s poor run</h2>
+            <p>Kerala Blasters sacked its Swedish head coach Mikael Stahre along with assistant coaches Bjorn Wesstrom and Frederico Pereira Morais on Monday following a poor run in which it lost six of its last seven Indian Super League matches.</p>
+        </div>
+    </div>
+
+    <div class="article">
+        <img src="img-4.jpg" alt="Olympic News">
+        <div class="article-content">
+            <h2>Border-Gavaskar Trophy: Australian fastbowler Hazlewood to miss Test series against India with calf injury</h2>
+            <p>Josh Hazlewood made his return to the side for the third Test after missing the Pink Ball Test at Adelaide due to a side strain.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Sports Insights | All Rights Reserved</p>
+        <p>Contact: sports@insights.com</p>
+    </footer>
+</body>
+</html>
